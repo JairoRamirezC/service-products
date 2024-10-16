@@ -49,6 +49,7 @@ class ProductServices {
 
   create(newData){
     const {name, price, image, isBlock} = newData;
+    // Ya no se validan los datos desde aca, ya que este trabajo lo hacen los schemas (product.schema.js)
     // if(!name) throw boom.notFound('property name required');
     // if(!price) return 'property price required';
     // if(!image) return 'property image required';
